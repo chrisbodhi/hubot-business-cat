@@ -1,14 +1,14 @@
 {
-  "name": "hubot-business-cat",
-  "version": "1.1.6",
-  "description": "Hubot script that displays `business cat` images",
+  "name": "hubot-lying-cat",
+  "version": "0.0.1",
+  "description": "Hubot script that displays Lying Cat from the excellent SAGA comic",
   "main": "index.coffee",
-  "author": "Morgan Wigmanich <okize123@gmail.com> (https://github.com/okize)",
+  "author": "Chris Boette (https://github.com/chrisbodhi)",
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "business",
-    "jargon",
+    "saga",
+    "lying",
     "cat"
   ],
   "license": "MIT",
@@ -16,13 +16,13 @@
     "test": "script/test",
     "start": "coffee ./test/server.coffee"
   },
-  "homepage": "https://github.com/hubot-scripts/hubot-business-cat/",
+  "homepage": "https://github.com/chrisbodhi/hubot-business-cat/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hubot-scripts/hubot-business-cat.git"
+    "url": "https://github.com/chrisbodhi/hubot-business-cat.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-business-cat/issues"
+    "url": "https://github.com/chrisbodhi/hubot-business-cat/issues"
   },
   "dependencies": {
     "coffee-script": "1.8.x"

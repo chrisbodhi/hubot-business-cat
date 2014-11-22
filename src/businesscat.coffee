@@ -1,5 +1,5 @@
 # Description:
-#   Business cat is summoned when business jargon is used
+#   Lying Cat is summoned when the word 'lying' is used
 #
 # Dependencies:
 #   None
@@ -8,18 +8,17 @@
 #   None
 #
 # Commands:
-#   business jargon - summons business cat
+#   lying - summons Lying Cat
 #
-# Notes
-#   See jargon array for list of trigger phrases
 #
 # Author:
+#   Chris Boette (https://github.com/chrisbodhi), 
+#   by way of hubot-business-cat by
 #   Morgan Wigmanich <okize123@gmail.com> (https://github.com/okize)
 
 images = require './data/images.json'
-jargon = require './data/triggers.json'
-regex = new RegExp jargon.join('|'), 'gi'
+trigger = require './data/triggers.json'
 
 module.exports = (robot) ->
-  robot.hear regex, (msg) ->
+  robot.hear trigger, (msg) ->
     msg.send msg.random images
