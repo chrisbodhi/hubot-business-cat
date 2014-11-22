@@ -10,11 +10,11 @@ describe 'hubot-business-cat', ->
       respond: sinon.spy()
       hear: sinon.spy()
 
-    require('../src/businesscat')(@robot)
+    require('../src/lyingcat')(@robot)
 
   it 'does register a hear listener', ->
     expect(@robot.hear).to.have.been.calledWithMatch sinon.match( (val) ->
-      val.test /per se/
+      val.test /liar/
     )
 
   it 'does NOT register a hear listener', ->

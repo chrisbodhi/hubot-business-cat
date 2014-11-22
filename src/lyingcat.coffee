@@ -19,6 +19,8 @@
 images = require './data/images.json'
 trigger = require './data/triggers.json'
 
+regex = new RegExp trigger.join('|'), 'gi'
+
 module.exports = (robot) ->
-  robot.hear trigger, (msg) ->
+  robot.hear regex, (msg) ->
     msg.send msg.random images
