@@ -5,9 +5,9 @@
 
 # Hubot: Lying Cat
 
-Business cat is summoned when business jargon is used
+Lying Cat is summoned when 'lying' or 'liar' is used. Right now, Lying Cat just jumps on the bandwagon, but if you have an idea on how to trigger LC when someone *actually* lies, feel free to fork the project and patent that shit!
 
-![It's business time!](https://raw.github.com/hubot-scripts/hubot-business-cat/gh-pages/animated-business-cat.gif)
+![Lying.](http://girlsgonegeek.files.wordpress.com/2014/01/lying-cat-by-fiona-staples.jpg?w=584&h=825)
 
 ## Installation
 
