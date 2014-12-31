@@ -1,8 +1,3 @@
-[![NPM version](http://img.shields.io/npm/v/hubot-business-cat.svg?style=flat)](https://www.npmjs.org/package/hubot-business-cat)
-[![Build Status](http://img.shields.io/travis/hubot-scripts/hubot-business-cat.svg?style=flat)](https://travis-ci.org/hubot-scripts/hubot-business-cat)
-[![Dependency Status](http://img.shields.io/david/hubot-scripts/hubot-business-cat.svg?style=flat)](https://david-dm.org/hubot-scripts/hubot-business-cat)
-[![Downloads](http://img.shields.io/npm/dm/hubot-business-cat.svg?style=flat)](https://www.npmjs.org/package/hubot-business-cat)
-
 # Hubot: Lying Cat
 
 Lying Cat is summoned when 'lying,' 'liar,' or 'lie' is used. Right now, Lying Cat just jumps on the bandwagon, but if you have an idea on how to trigger LC when someone *actually* lies, feel free to fork the project and then patent that shit!
